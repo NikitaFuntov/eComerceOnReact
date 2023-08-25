@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.bar{
+    background-color: #FBEBB5;
+    &_wrapper{
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin: 0 auto;
+        width: 1440px;
+        display: flex;
+    }
+    &_links{
+        width: 35%;
+        display: flex; 
+        margin: 0 auto;
+        justify-content: space-between;
+        font-family: "Poppins Medium";
+        &_home{
+            text-decoration: none;
+            color: black;
+        }
+        &_shop{
+            text-decoration: none;
+            color: black;
+        }
+        &_about{
+            text-decoration: none;
+            color: black;
+        }
+        &_contact{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    &_icons{
+        width: 13%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

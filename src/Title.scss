@@ -1,0 +1,41 @@
+body{
+    font-family: "Poppins Medium";
+}
+
+.title{
+    background-image: url(src/svg/back.png);
+    background-repeat: no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+    &_wrapper{
+        margin: 0 auto;
+        width: 1450px;
+    }
+    &_con{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        &_img{
+            margin-top: 48px;
+        }
+        &_main{
+
+        }
+        &_links{
+            text-decoration: none;
+            display: flex;
+            
+            &_link{
+                text-decoration: none;
+                color: black;
+            }
+            &_more{
+                margin-top: 0px;
+            }
+        }
+    }
+    
+}

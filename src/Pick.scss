@@ -1,0 +1,40 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.pick{
+    font-family: "Poppins Medium";
+    background-color: #F5F5F5;
+    text-align: center;
+    &_wrapper{
+        width: 1450px;
+        margin: 0 auto;
+    }
+    &_txt{
+        text-align: center;
+        &_main{
+            font-size: 36px;
+        }
+        &_sec{
+            color: #9F9F9F;
+        }
+    }
+    &_cards{
+        justify-content: space-between;
+        display: flex;
+        padding-bottom: 10%;
+        padding-top: 7%;
+        &_card{
+            text-decoration: none;
+            color: black;
+            transition: 0.5s;
+            border-radius: 6%;
+            &:hover{
+                transition: 0.5s;
+                transform: scale(1.2);
+                box-shadow: 1px 1px 20px 2px #525252;
+            }
+        }
+    }
+}
+

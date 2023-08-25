@@ -1,0 +1,40 @@
+.inst{
+    height: 545px;
+    font-family: "Poppins Medium";
+    background-image: url(src/svg/bckg.png);
+    margin: 0 auto;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+    &_wrapper{
+        text-align: center;
+        margin: 0 auto;
+    }
+    &_main{
+        font-size: 60px;
+        padding-top: 183px;
+        padding-bottom: 22px;
+    }
+    &_txt{
+        padding-bottom: 22px;
+    }
+    &_link{
+        display: flex;
+        margin: 0 auto;
+        width: 240px;
+        height: 70px;
+        border-radius: 32px;
+        outline: 2px solid #FAF4F4;
+        background-color: #FAF4F4;
+        box-shadow: 0px 19px 43px -8px rgba(0,0,0,0.66);
+        margin-bottom: 86px;
+        text-decoration: none;
+        color: black;
+        &_con{
+            margin: 0 auto;
+            margin-top: 7%;
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.new{
+    font-family: "Poppins Medium";
+    background-color: #FFF9E5;
+    &_wrapper{
+        display: flex;
+        width: 1450px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    &_img{
+        width: 53%;
+    }
+    &_con{
+        text-align: center;
+        margin-top: 11%;
+        &_txt{
+            font-size: 24px;
+        }
+        &_main{
+            font-size: 48px;
+        }
+        &_link{
+            margin: 0 auto;
+            margin-top: 11%;
+            display: flex;
+            outline: 2px solid #000;
+            width: 218px;
+            height: 60px;
+            &_txt{
+                margin: 0 auto;
+                margin-top: 7%;
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}

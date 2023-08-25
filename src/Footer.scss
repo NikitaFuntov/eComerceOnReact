@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+
+.footer{
+    font-family: "Poppins Medium";
+    margin: 0 auto;
+    &_wrapper{
+        margin: 0 auto;
+        display: flex;
+        width: 1450px;
+        justify-content: space-between;
+    }
+    &_links{
+        &_link{
+            padding: 10px;
+        }
+    }
+    &_help{
+        &_link{
+            padding: 10px;
+        }
+    }
+}

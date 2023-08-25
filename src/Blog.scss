@@ -1,0 +1,62 @@
+h3{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.blog{
+    font-family: "Poppins Medium";
+    background-color: #F5F5F5;
+    text-align: center;
+    &_wrapper{
+        margin: 0 auto;
+    }
+    &_main{
+        &_name{
+            font-size: 36px;
+        }
+        &_txt{
+            color: #9F9F9F;
+            font-size: 16px;
+            padding-bottom: 80px;
+            margin-top: 20px;
+        }
+    }
+    &_cards{
+        width: 1445px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-bottom: 87px;
+        &_card{
+            &_txt{
+                margin-top: 15px;
+                padding-bottom: 8px;
+                font-size: 20px;
+            }
+            &_txt1{
+                font-size: 16px;
+            }
+            &_link{
+                font-size: 24px;
+            text-decoration: none;
+            color: black;
+            &:hover{
+                transition: 0.1s;
+                border-bottom: 3px solid black;
+            }
+            }
+        }
+    }
+    &_link{
+        margin-top: 1px;
+        font-size: 24px;
+            text-decoration: none;
+            color: black;
+            &:hover{
+                transition: 0.1s;
+                border-bottom: 3px solid black;
+            }
+    }
+}

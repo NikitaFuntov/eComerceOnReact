@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Poppins Medium';
+    /* src: url(../fonts/Cabin-Bold.ttf); */
+    src: url(fonts/Poppins-Medium.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
